@@ -75,6 +75,7 @@
 
 .portfolio .card{
     border: unset;
+    padding: 0.5em;
 }
 
 .portfolio .card-body{

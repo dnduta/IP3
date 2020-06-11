@@ -20,3 +20,22 @@ $(document).ready(() => {
         contactForm.trigger('reset');
     })
 });
+
+
+// PORTFOLIO
+function portfolioItem(item)
+{
+   return '<div class="card col-sm-6 col-md-3">' +
+                '<div class="card-body">' +
+                    '<img src="assets/portfolio/work'+item +'.jpg" alt="portfolio">' +
+                '</div>' +
+            '</div>';
+}
+
+$(document).ready(() => {
+    var portfolio = $('#portfolio-items');
+    for(var i = 1; i <= 8; i++)
+    {
+        portfolio.append(portfolioItem(i));
+    }
+});
