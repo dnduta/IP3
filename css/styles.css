@@ -36,3 +36,13 @@
 .about{
     text-align: center;
 }
+
+.services{
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+}
