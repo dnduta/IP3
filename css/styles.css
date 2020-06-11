@@ -1,0 +1,29 @@
+#intro-header .jumbotron{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: unset;
+    background-attachment: scroll;
+}
+
+#intro-header .jumbotron .header-details{
+    text-align: center;    
+    padding: 5em 0;
+}
+
+#intro-header .jumbotron .header-details h1.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.6em 0 0;
+    font-size: 3rem;
+}
+
+#intro-header .jumbotron .header-details p#slogan
+{
+    color: #fff;
+}
+
+#intro-header .jumbotron .header-details #about-anchor a{
+    background-image: url(../assets/mouse_click.png);
+}
