@@ -70,7 +70,7 @@
 
 .portfolio{
     text-align: center;
-    padding-top: 1.5em;
+    padding: 1.5em 0 3em;
 }
 
 .portfolio .card{
@@ -83,4 +83,43 @@
 
 .portfolio .card img{
     width: 100%;
+}
+
+.contact-us{
+    padding-top: 1.5em;
+    color: #fff;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contact-us #contact-form-wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contact-us .section-title{
+    padding: 1em;
+}
+
+.contact-us input{
+    color: #fff;
+}
+.contact-us .form-control{
+    background: unset;
+    border-radius: unset;
+    color: #fff;
+}
+
+footer{
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .credits{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+footer .credits p{
+    margin: unset;
 }
