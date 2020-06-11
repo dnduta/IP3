@@ -68,6 +68,10 @@
     display: none;
 }
 
+.what-we-do .card .card-back h4{
+    text-transform: uppercase;
+}
+
 .portfolio{
     text-align: center;
     padding: 1.5em 0 3em;

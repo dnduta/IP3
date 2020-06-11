@@ -1,3 +1,16 @@
+// WHAT WE DO
+function showDesc(obj)
+{
+    obj.hide();
+    obj.next('.card-back').show();
+}
+function hideDesc(obj)
+{
+    obj.hide();
+    obj.prev('.card-front').show();
+}
+
+
 // FOOTER SOCIAL LINKS
 var links = ['behance.png','dribble.png','facebook.png','flickr.png','g_plus.png','pinterest.png','skype.png','stumble_upon.png','twitter.png','you_tube.png'];
 $(document).ready(() => {
