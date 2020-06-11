@@ -45,4 +45,25 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.what-we-do{
+    text-align: center;
+}
+
+.what-we-do .card {
+    border: unset;
+    padding: 1em 0;
+}
+
+.what-we-do .card .card-front img{
+    height: 100px;
+}
+
+.what-we-do .card .card-front p.caption{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.what-we-do .card .card-back{
+    display: none;
 }
