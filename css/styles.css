@@ -67,3 +67,20 @@
 .what-we-do .card .card-back{
     display: none;
 }
+
+.portfolio{
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.portfolio .card{
+    border: unset;
+}
+
+.portfolio .card-body{
+    padding: unset;
+}
+
+.portfolio .card img{
+    width: 100%;
+}
