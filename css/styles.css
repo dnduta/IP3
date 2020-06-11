@@ -27,3 +27,12 @@
 #intro-header .jumbotron .header-details #about-anchor a{
     background-image: url(../assets/mouse_click.png);
 }
+
+.section-title{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about{
+    text-align: center;
+}
