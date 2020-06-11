@@ -112,7 +112,7 @@
 }
 
 footer{
-    padding: 2em 0;
+    padding: 3em 0 2em;
     text-align: center;
 }
 
@@ -122,4 +122,8 @@ footer .credits{
 }
 footer .credits p{
     margin: unset;
+}
+
+footer #footer-social a{
+    padding: 0 0.5em;
 }
